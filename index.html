@@ -7,7 +7,8 @@
     <title>Project 1</title>
   </head>
   <body>
-    <header>
+    <header class="heading">
+      <h1>Welcome!</h1>
       <div class="menu">
         <ul>
           <li>
@@ -20,20 +21,37 @@
         </ul>
       </div>
     </header>
-    <main class="content">
-      <h1>Ryan England</h1>
-      <img
-        src="assets/images/stellyes.png"
-        alt="Pixel art of child resting his head on his hand."
-      />
-      <form>
-        <label for="fullname">Name:</label>
-        <input type="text" name="fullname" />
-        <br />
-        <label for="email">Email:</label>
-        <input type="text" name="email" />
-      </form>
+    <main>
+      <section class="name">
+        <h1>Ryan England</h1>
+      </section>
+      <section class="stellyes">
+        <img
+          class="sfx"
+          src="assets/images/stellyes.png"
+          alt="Pixel art of child resting his head on his hand. The child's name is 'Stellyes'"
+        />
+      </section>
+      <section class="contact-form">
+        <form id="contact">
+          <label for="name">Name: </label>
+          <input type="text" name="name" />
+          <br />
+          <label for="email">Email:</label>
+          <input type="text" name="email" />
+        </form>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="bonus">
+        <p>Thank you for stopping by!</p>
+          <a
+            href="https://www.youtube.com/watch?v=kwK7ExuKRxM"
+            alt="Video: SHIFT Foods - King 5 Interview "
+            >Remember to be kind!</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
